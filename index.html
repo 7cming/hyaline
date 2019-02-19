@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>7c system</title>
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/mystyle.css">
+</head>
+
+<body class="hold-transition sidebar-mini fixed" data-skintheme="skin5">
+<div id="portalmask" class="portalmask">
+    <div class="portalopacity"></div>
+    <div class="portalloading">
+        <i class="fa fa-spin fa-spinner fa-2x fontcenter"></i>系统加载中 请稍后
+    </div>
+</div>
+<div class="wrapper">
+    <header class="main-header">
+        <a href="#" class="logo hidden-xs">
+            <span class="logo-mini"><img src="img/logo.png"></span>
+            <span class="logo-lg">7c system</span>
+        </a>
+        <nav class="navbar navbar-static-top">
+            <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
+                <span class="sr-only">Toggle navigation</span>
+            </a>
+            <div class="navbar-custom-menu">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown messages-menu">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            <i class="fa fa-envelope-o"></i>
+                            <span class="label label-success">1</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="header">信息</li>
+                            <li>
+                                <ul class="menu">
+                                    <li>
+                                        <a href="#">
+                                            <div class="pull-left">
+                                                <img src="img/logo.png" class="img-circle" alt="User Image">
+                                            </div>
+                                            <h4>
+                                                xxx
+                                                <small><i class="fa fa-clock-o"></i> time</small>
+                                            </h4>
+                                            <p>xxxxxxxxxxxxxxxxxxxxxx</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="footer"><a href="#">查看全部</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown notifications-menu">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            <i class="fa fa-bell-o"></i>
+                            <span class="label label-warning">1</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="header">提醒</li>
+                            <li>
+                                <ul class="menu">
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-users text-aqua"></i> xxxxxxxxx
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="footer"><a href="#">查看全部</a></li>
+                        </ul>
+                    </li>
+                    <li class="setting">
+                        <a href="#" data-toggle="modal" data-target="#rightsideModal"><i class="fa fa-gears"></i></a>
+                    </li>
+                    <li class="dropdown user user-menu">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            <img src="img/logo.png" class="user-image" alt="User Image">
+                            <span class="hidden-xs">username</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="user-header">
+                                <img src="img/logo.png" class="img-circle" alt="User Image">
+                            </li>
+                            <li class="user-body">
+                                <div class="row">
+                                    <div class="col-xs-4 text-center">
+                                        <a href="#">xx</a>
+                                    </div>
+                                    <div class="col-xs-4 text-center">
+                                        <a href="#">xx</a>
+                                    </div>
+                                    <div class="col-xs-4 text-center">
+                                        <a href="#">xx</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div id="date" class="text-center">
+                                </div>
+                            </li>
+                            <li class="user-footer">
+                                <div class="pull-left">
+                                    <a href="#" class="btn btn-default btn-flat">个人信息</a>
+                                </div>
+                                <div class="pull-right">
+                                    <a href="#" class="btn btn-default btn-flat">退出系统</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <aside class="main-sidebar">
+        <section class="sidebar">
+            <ul class="sidebar-menu" data-widget="tree">
+                <li class="treeview">
+                    <a href="#">
+                        <i class="fa fa-share"></i> <span>Multilevel</span>
+                        <span class="pull-right-container">
+                            <i class="fa fa-angle-left pull-right"></i>
+                        </span>
+                    </a>
+                    <ul class="treeview-menu">
+                        <li><a href="#"><i class="fa fa-circle-o"></i> Level One</a></li>
+                        <li class="treeview">
+                            <a href="#"><i class="fa fa-circle-o"></i> Level One
+                                <span class="pull-right-container">
+                                    <i class="fa fa-angle-left pull-right"></i>
+                                </span>
+                            </a>
+                            <ul class="treeview-menu">
+                                <li><a href="#"><i class="fa fa-circle-o"></i> Level Two</a></li>
+                                <li class="treeview">
+                                    <a href="#"><i class="fa fa-circle-o"></i> Level Two
+                                        <span class="pull-right-container">
+                                            <i class="fa fa-angle-left pull-right"></i>
+                                        </span>
+                                    </a>
+                                    <ul class="treeview-menu">
+                                        <li><a href="#"><i class="fa fa-circle-o"></i> Level Three</a></li>
+                                        <li><a href="#"><i class="fa fa-circle-o"></i> Level Three</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="#"><i class="fa fa-circle-o"></i> Level One</a></li>
+                    </ul>
+                </li>
+                <li class="treeview">
+                    <a href="#">
+                        <i class="fa fa-share"></i> <span>Multilevel</span>
+                        <span class="pull-right-container">
+                            <i class="fa fa-angle-left pull-right"></i>
+                        </span>
+                    </a>
+                    <ul class="treeview-menu">
+                        <li><a href="#"><i class="fa fa-circle-o"></i> Level One</a></li>
+                        <li class="treeview">
+                            <a href="#"><i class="fa fa-circle-o"></i> Level One
+                                <span class="pull-right-container">
+                                    <i class="fa fa-angle-left pull-right"></i>
+                                </span>
+                            </a>
+                            <ul class="treeview-menu">
+                                <li><a href="#"><i class="fa fa-circle-o"></i> Level Two</a></li>
+                                <li class="treeview">
+                                    <a href="#"><i class="fa fa-circle-o"></i> Level Two
+                                        <span class="pull-right-container">
+                                            <i class="fa fa-angle-left pull-right"></i>
+                                        </span>
+                                    </a>
+                                    <ul class="treeview-menu">
+                                        <li><a href="#"><i class="fa fa-circle-o"></i> Level Three</a></li>
+                                        <li><a href="#"><i class="fa fa-circle-o"></i> Level Three</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="#"><i class="fa fa-circle-o"></i> Level One</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+    </aside>
+
+    <div class="modal rightside-modal" id="rightsideModal">
+        <div class="modal-content rightside">
+            <ul class="nav nav-tabs nav-justified" role="tablist">
+                <li role="presentation" class="active">
+                    <a href="#home" aria-controls="home" role="tab" data-toggle="tab">setting</a>
+                </li>
+                <li role="presentation">
+                    <a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">skin theme</a>
+                </li>
+            </ul>
+            <div class="tab-content">
+                <div role="tabpanel" class="tab-pane active" id="home">
+
+                </div>
+                <div role="tabpanel" class="tab-pane" id="profile">
+                    <div class="theme-list">
+                        <a data-skin="skin1" class="theme-item"><img src="img/background/img100.jpg"></a>
+                        <a data-skin="skin2" class="theme-item"><img src="img/background/img101.png"></a>
+                        <a data-skin="skin3" class="theme-item"><img src="img/background/img102.jpg"></a>
+                        <a data-skin="skin4" class="theme-item"><img src="img/background/img103.png"></a>
+                        <a data-skin="skin5" class="theme-item active"><img src="img/background/img104.jpg"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="content-wrapper">
+        <div id="navtab">
+            <div class="leftarrow"><i class="fa fa-backward"></i></div>
+            <div class="middletabs">
+                <ul class="nav nav-tabs">
+                </ul>
+            </div>
+            <div class="rightarrow"><i class="fa fa-forward"></i></div>
+            <div class="rightdropdown dropdown">
+                <div data-toggle="dropdown" class="dropdown-toggle"><i class="fa fa-caret-down fa-lg"></i></div>
+                <ul class="dropdown-menu pull-right">
+                    <li class="closeothertabs"><a>关闭其他</a></li>
+                    <li class="closealltabs"><a>关闭全部</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="pagemask" class="pagemask">
+            <div class="pageopacity"></div>
+            <div class="pageloading">
+                <i class="fa fa-spin fa-spinner fa-2x fontcenter"></i>请稍后
+            </div>
+        </div>
+        <div class="tab-content" id="boxId">
+
+        </div>
+    </div>
+    <footer class="main-footer" id="footercontent">
+        <div class="text-center hidden-xs">
+            hello 7c
+        </div>
+    </footer>
+
+</div>
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/jquery.slimscroll.js"></script>
+<script src="js/mystyle.js"></script>
+
+<script>
+    $(function () {
+        $('.dropdown.user.user-menu').hover(function () {
+            var monthNames = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"];
+            var dayNames = ["星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六"]
+            var newDate = new Date();
+            newDate.setDate(newDate.getDate());
+            $('#date').html(newDate.getFullYear() + '年' + monthNames[newDate.getMonth()] + '月' + newDate.getDate() + '日 ' + dayNames[newDate.getDay()]);
+        })
+        //home page
+        addTabs({id: "home", title: "home", close: false, url: "home.html", icon: "fa fa-home"});
+    });
+
+    $('body').on('click', '.theme-list > a', function (e) {
+        $(".theme-list .active").removeClass("active");
+        e.preventDefault();
+        var skin = $(this).data('skin');
+        $('body').attr('data-skintheme', skin);
+        $(this).addClass('active');
+    });
+</script>
+</body>
+</html>
