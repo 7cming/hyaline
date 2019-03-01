@@ -764,3 +764,4 @@ if (typeof jQuery === 'undefined') {
     });
 
 }(jQuery);
+console.log("有问题联系: %c774669939@qq.com\n%cPowered By %c7c", "color:#0099FF", "color:#000", "color:#990099");
